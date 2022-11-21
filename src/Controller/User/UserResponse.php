@@ -13,7 +13,6 @@ class UserResponse
         return [
             'id' => $user->getId(),
             'login' => $user->getLogin(),
-            'password' => $user->getPassword(),
             'role' => $user->getRole(),
             'name' => $user->getName(),
             'updatedAt' => $user->getUpdatedAt(),
